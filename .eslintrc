@@ -5,16 +5,20 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": ["./tsconfig.json"]
+    "project": [
+      "./tsconfig.json"
+    ]
   },
-  "plugins": ["@typescript-eslint", "no-loops"],
+  "plugins": [
+    "@typescript-eslint",
+    "no-loops"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/strict-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked"
   ],
   "rules": {
-    "no-console": 2,
     "no-extra-semi": 2,
     "no-undef": 2,
     "no-unreachable": 2,
